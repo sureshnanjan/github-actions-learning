@@ -1,4 +1,4 @@
-name: learn-github-actions
+name: Multiple Machine Runs
 run-name: ${{ github.actor }} Multiple Machines run
 on: [workflow_dispatch]
 jobs:
