@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/sureshnanjan/github-actions-learning/issues"
   },
-  "homepage": "https://github.com/sureshnanjan/github-actions-learning#readme"
+  "homepage": "https://github.com/sureshnanjan/github-actions-learning#readme",
+  "devDependencies": {
+    "cypress": "^10.11.0"
+  }
 }
