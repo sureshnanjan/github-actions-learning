@@ -2,12 +2,12 @@ name: Multiple Machine Runs
 run-name: ${{ github.actor }} Multiple Machines run
 on: [workflow_dispatch]
 jobs:
+  example_matrix:
+    strategy:
+      matrix:
+        os: [windows-latest, ubuntu-latest, macos-latest]
+        version: [10, 12, 14]
   cypress-run:
-    example_matrix:
-      strategy:
-        matrix:
-          os: [windows-latest, ubuntu-latest , macos-latest]
-          version: [10, 12, 14]
     runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout
