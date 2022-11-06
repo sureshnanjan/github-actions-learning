@@ -1,0 +1,23 @@
+{
+  "name": "github-actions-learning",
+  "version": "1.0.0",
+  "description": "The Actions Learning project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sureshnanjan/github-actions-learning.git"
+  },
+  "keywords": [
+    "github-actions",
+    "cypress"
+  ],
+  "author": "Suresh Nanjan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sureshnanjan/github-actions-learning/issues"
+  },
+  "homepage": "https://github.com/sureshnanjan/github-actions-learning#readme"
+}
